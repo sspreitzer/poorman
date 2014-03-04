@@ -1,0 +1,15 @@
+Virtual design:
+
+Cluster (Compound of automated machines)
+ |
+ |-> ResourceGroup (Compound of automated resources)
+      |
+      |-> Resource (Resource)
+
+Physical design:
+
+Node (Machine)
+ |
+ |-> Ring (Cluster intercommunication ring)
+      |
+      |-> Device (Cluster intercommunication device)
